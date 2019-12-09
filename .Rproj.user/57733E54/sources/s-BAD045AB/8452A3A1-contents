@@ -34,3 +34,5 @@ library(glmnet)
 
 
 install.package("gitHub")
+
+install.packages("git")
