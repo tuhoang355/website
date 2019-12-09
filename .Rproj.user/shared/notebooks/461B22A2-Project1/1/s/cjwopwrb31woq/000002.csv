@@ -1,0 +1,4 @@
+"0","ggplot(data = EDAdata2,aes(x= state, y= rate.male, color=UCL95.male))+geom_point()+ggtitle(""Male Cancer Rate in each State"")"
+"2","Error in ggplot(data = EDAdata2, aes(x = state, y = rate.male, color = UCL95.male)) : 
+  object 'EDAdata2' not found
+"

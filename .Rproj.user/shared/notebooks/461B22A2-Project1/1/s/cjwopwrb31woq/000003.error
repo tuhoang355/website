@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"ggplot(data = EDAdata2, aes(x = state, y = rate.male, color = UCL95.male))","line_number":0}],"message":"Error in ggplot(data = EDAdata2, aes(x = state, y = rate.male, color = UCL95.male)) : \n  object 'EDAdata2' not found\n"}

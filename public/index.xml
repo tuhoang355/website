@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Final SDS348 Project</title>
+    <link>/</link>
+    <description>Recent content on My Final SDS348 Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project1/</guid>
+      <description>#Title: SDS 348 Project: 1 Exploratory Data Analysis #Author: Tu Hoang (tah2957) #Date: 10/20/2019 —
+Introduction The two dataset that I have decided to use for this Explorartory Data Anaylsis is a dataset named bad_drivers and another data set named USCancerRates. At first glance, these two dataset don’t have anything in common since one dealt with Cancer rates and the other dealt with factors contributing to inattentive drivers. I’ve decided to use this two dataset because I wanted to see if there was a plausible correction between inattentive drivers and cancer rates.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project2/</guid>
+      <description>#Title: SDS 348 Project: 2 Modeling, Testing, and Predicting #Author: Tu Hoang (tah2957) #Date: 11/27/2019 —
+bad_drivers2&amp;lt;-bad_drivers%&amp;gt;%pivot_longer(cols = c(&amp;quot;insurance_premiums&amp;quot;,&amp;quot;losses&amp;quot;), names_to = &amp;quot;PPIL&amp;quot;, values_to=&amp;quot;Cost(IP &amp;amp; L)&amp;quot;) glimpse(bad_drivers2) ## Observations: 102 ## Variables: 8 ## $ state &amp;lt;chr&amp;gt; &amp;quot;Alabama&amp;quot;, &amp;quot;Alabama&amp;quot;, &amp;quot;Alaska&amp;quot;, &amp;quot;Alaska&amp;quot;, &amp;quot;Arizon… ## $ num_drivers &amp;lt;dbl&amp;gt; 18.8, 18.8, 18.1, 18.1, 18.6, 18.6, 22.4, 22.4, 1… ## $ perc_speeding &amp;lt;int&amp;gt; 39, 39, 41, 41, 35, 35, 18, 18, 35, 35, 37, 37, 4… ## $ perc_alcohol &amp;lt;int&amp;gt; 30, 30, 25, 25, 28, 28, 26, 26, 28, 28, 28, 28, 3… ## $ perc_not_distracted &amp;lt;int&amp;gt; 96, 96, 90, 90, 84, 84, 94, 94, 91, 91, 79, 79, 8… ## $ perc_no_previous &amp;lt;int&amp;gt; 80, 80, 94, 94, 96, 96, 95, 95, 89, 89, 95, 95, 8… ## $ PPIL &amp;lt;chr&amp;gt; &amp;quot;insurance_premiums&amp;quot;, &amp;quot;losses&amp;quot;, &amp;quot;insurance_premiu… ## $ `Cost(IP &amp;amp; L)` &amp;lt;dbl&amp;gt; 784.</description>
+    </item>
+    
+  </channel>
+</rss>
